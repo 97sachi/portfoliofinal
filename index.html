@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sachi Chaudhary Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Make sure the header aligns correctly */
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem; /* Set font size for large screens */
+    }
+    .navbar-brand i {
+      margin-left: 5px;
+      font-size: 1.1rem; /* Slightly smaller icon */
+    }
+
+    /* Make sure the header font size is responsive */
+    @media (max-width: 768px) {
+      .navbar-brand {
+        font-size: 1.0rem; /* Slightly smaller font on smaller screens */
+      }
+      .navbar-brand i {
+        font-size: 1.1rem;
+      }
+    }
+
+    /* Ensure navigation items are spaced correctly */
+    .navbar-nav {
+      flex-grow: 1;
+      justify-content: flex-end;
+      flex-wrap: nowrap; /* Prevent wrapping onto new lines */
+    }
+
+    .navbar-nav .nav-item {
+      margin-left: 10px; /* Reduced margin */
+    }
+
+    .navbar-nav .nav-link {
+      padding: 5px 10px; /* Reduce padding to fit more items */
+    }
+
+    /* Optional: Reduce spacing for smaller screens */
+    @media (max-width: 576px) {
+      .navbar-nav .nav-item {
+        margin-left: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header class="bg-dark text-white py-3">
+      <nav class="container navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          Sachi Chaudhary <br>
+          <i class="fas fa-graduation-cap"></i> 
+             MS CS, Northeastern University
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work-experience">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    <!-- Rest of your code -->
+    
+
+  <!-- Home Section -->
+  <section id="home" class="d-flex align-items-center bg-light" style="height: 100vh;">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        
+        
+        <!-- Text Section -->
+        <div class="col-md-6 text-section">
+          <h1 class="display-4">Hello, I'm <span class="text-primary display-8">Sachi Chaudhary</span><br>and <span id="dynamic-text" class="text-primary display-8">I code.</span></h1>
+
+         
+          <p class="lead">A results-driven Software Development Engineer with over 2 years of hands-on experience in building innovative and scalable solutions. Adept at full-stack development using the MERN stack and Django, I’ve led projects that boosted customer engagement and system efficiency by 30%. My research focuses on blockchain, decentralized applications, and AI-driven security frameworks. Currently pursuing my M.S. in Computer Science at Northeastern University, I’m seeking opportunities to apply my expertise in software engineering and AI/ML solutions.</p>
+            
+    </div>
+        
+        <!-- Image Section -->
+        <div class="col-md-6 image-section text-center">
+          <img src="IMG_3507.jpg" class="img-fluid shadow-lg" alt="Sachi Chaudhary">
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/contactsachichaudhary/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/97sachi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://scholar.google.com/citations?user=jA1MvMUAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <!-- Work Experience Section -->
+<section id="work-experience" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-5">Work Experience</h2>
+
+
+      <!-- GRG ATM Pvt. Ltd. Experience -->
+      <div class="card mb-4">
+          <div class="card-body">
+              <h3 class="text-primary">Software Development Engineer </h3>
+              <p class="text-muted">GRG ATM Pvt. Ltd. | Mehsana, Gujarat, India <br> <strong>Jan 2023 - Dec 2023</strong></p>
+              <ul>
+                  <li>Coached 10 Software Engineers to conduct beta-testing of online user interface based customer engagement platform; analysed user feedback and reported software bugs, adjust functioning by 55%. Also, Reduced customer issues by 20% through implementation of CRM system leveraging MERN stack, integrating customer management, employee management, sales automation, support, and security.</li>
+                  <li>Automated product search, renewals, front-back-office integration, and reporting, advancing system efficiency by 25% while improving user satisfaction score by 30%.</li>
+                  <li>Cultivated a scalable Multiverse e-commerce platform using Django, Django REST Framework, and React.js, enabling seamless customer affiliation and resourceful product supervision.</li>
+                  <li>Collaborated with 5 software developers and architects, modifying software to detect latent faults; supervised software maintenance department personnel, elevating performance by 50%.</li>
+              </ul>
+              <a href="path/to/certificate.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Certificate</a>
+          </div>
+      </div>
+
+      <!-- Add other work experiences similarly -->
+       <!-- GRG ATM Pvt. Ltd. Experience -->
+      <div class="card mb-4">
+        <div class="card-body">
+            <h3 class="text-primary">Blockchain and AI Research Interplanetary </h3>
+            <p class="text-muted">Sudeep Tanwar’s Research Lab | Nirma University, India <br> <strong>Dec 2021 - Dec 2023</strong></p>
+            <ul>
+                <li>Researched smart healthcare, blockchain, federated learning, and decentralized applications, focusing on security frameworks and AI explainability for innovative solutions in electric vehicles and telesurgery.</li>
+                <li>Introduced a conference paper on emotion recognition for a single helpline system at ISDA 2022 and shared insights on explainable AI and its challenges at IC4S 2022. Proposed a smart contract and IPFS-based framework for secure EV synchronization, currently under review at Sustainable Energy, Grids, and Network (impact factor 5.4).</li>
+                <li>Published a blockchain-based secure voting mechanism for 5G networks; proposed blockchain based energy trading scheme for EVs Coordination, demonstrated at CCCI 2023 and published in IEEE Xplore. Delivered decentralized applications for EV scheduling and telesurgery at ACM Southeast Conference 2024 and Confluence 2024.</li>
+            </ul>
+            <a href="path/to/certificate.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Certificate</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Education Section -->
+  <section id="education" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Education</h2>
+  
+      <!-- Northeastern University -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-1">
+          <h3 class="text-primary">Master of Science in Computer Science</h3>
+          <p class="text-muted">Northeastern University, Boston, MA, USA <br> <strong>GPA:</strong> 4.00 <br> <strong>Jan 2024 - May 2026</strong></p>
+          <h4>Coursework:</h4>
+          <ul>
+            <li>Programming Design Paradigm</li>
+            <li>Algorithms</li>
+            <li>Database Management Systems</li>
+            <li>Web Development</li>
+            <li>Foundations of Artificial Intelligence</li>
+          </ul>
+          <h4>Teaching Assistantship:</h4>
+          <p class="text-muted"><strong>CS 3200 - Introduction to Databases</strong> (Fall 2024)</p>
+  
+          <a href="portfolio/Healthcare_Technology_Paper.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Transcript</a>
+          <a href="portfolio/Degree_Certificate.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Degree Certificate</a>
+        </div>
+        <div class="col-md-6 order-md-2">
+          <img src="neu.jpg" alt="Northeastern University" class="img-fluid shadow-lg edu-image">
+        </div>
+      </div>
+  
+      <!-- Nirma University -->
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2">
+          <h3 class="text-primary">B.Tech in Computer Science and Engineering</h3>
+          <p class="text-muted">Nirma University, Ahmedabad, Gujarat, India <br> <strong>GPA:</strong> 4.00 <br> <strong>Aug 2019 - May 2023</strong></p>
+          <h4>Coursework:</h4>
+          <ul>
+            <li>Computer Languages, Object-Oriented Programming, Java, Python</li>
+            <li>Discrete Mathematics, Statistics, Probability</li>
+            <li>Data Structures and Algorithms, Software Engineering</li>
+            <li>Operating Systems, Cloud Computing, Machine Learning</li>
+            <li>Blockchain, Natural Language Processing, Big Data Analytics, Web Development</li>
+          </ul>
+          <a href="portfolio/Nirma_Transcript.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Transcript</a>
+          <a href="portfolio/Nirma_Degree_Certificate.pdf" target="_blank" class="btn btn-outline-primary mt-3">View Degree Certificate</a>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <img src="nirma.jpg" alt="Nirma University" class="img-fluid shadow-lg edu-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+<!-- Modal for Abstract -->
+<div class="modal fade" id="abstractModal" tabindex="-1" aria-labelledby="abstractModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="abstractModalLabel">Abstract</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modalAbstractContent">
+        <!-- Dynamic abstract content will be inserted here -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<section id="research" class="py-5">
+  <div class="container">
+      <h2 class="text-center mb-5">Research Publications</h2>
+
+      <div class="timeline">
+          <!-- Paper 8 - Apr 2024 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Apr 2024</span>
+                  <h4>Blockchain-based decentralized application for telesurgery</h4>
+                  <p>In Metaverse Environment</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract1')">Read Abstract</button>
+                  <div id="abstract1" class="abstract-card">
+                      <p>With the advent of technology in the medical industry, telesurgery has emerged as a transformative era of conventional medical practices to facilitate remote and efficient surgical procedures for the betterment of patients' health. Moreover, innovative technologies introduce a full-immersive metaverse environment for enabling communication between patients and doctors virtually and efficiently. Nevertheless, remote telesurgery operations in the metaverse are susceptible to various security and privacy issues that need to be tackled to secure the patient's confidential health data. Thus, we design an Ethereum blockchain-based decentralized application (DApp) for selecting and conducting telesurgery operations based on the doctors' specialization and type of surgery. The proposed application ensures secure and preserved communication between patient and doctor in the metaverse environment by deploying the smart contract in the Remix Integrated Development Environment (IDE). DApp is designed using web3 and JavaScript (JS) to reflect the telesurgery operations to the doctor and patient in the metaverse environment. Finally, the proposed smart contract for the application is evaluated based on parameters such as gas consumption analysis for smart contract functions and doctors registered and cost analysis for smart contract functions.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract1')"></button>
+                  </div>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10463231" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 7 - Mar 2024 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Mar 2024</span>
+                  <h4>Smart contract and IPFS-based framework</h4>
+                  <p>For secure electric vehicle synchronization at charging station</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract2')">Read Abstract</button>
+                  <div id="abstract2" class="abstract-card">
+                      <p>The growth of electric vehicles (EVs) at a significant pace is a promising solution for reducing harmful greenhouse gas emissions compared to conventional vehicles. Nevertheless, optimal and efficient EV charging management is a serious concern that needs to be solved for the benefit of both charging stations (CSs) and EVs. In this regard, we proposed a smart contract and Interplanetary File System (IPFS)-based secure EV synchronization framework at the CS utilizing a 5G wireless network. Blockchain technology strengthens the security of the EV charging at the CS in a synchronized and coordinated manner. The IPFS and 5G wireless network ensure efficient and reliable EVs synchronization to charge vehicles from the available number of charging points (CPs) at a CS. Furthermore, we have coordinated and synchronized the EV charging, considering various scenarios based on the waiting queue time, energy demand, and EVs (they can arrive in an emergency). We have shown the implementation interface of the proposed model based on the execution of a smart contract using the Remix Integrated Development Environment (IDE). Moreover, we have performed the security analysis of the smart contract using Echidna fuzzing-based tool to ensure the secure EVs allocation to the corresponding CS. Finally, the performance analysis of the IPFS and smart-based proposed model is evaluated and simulated considering various metrics such as transaction storage cost analysis, computational and communication overhead analysis, utilized cost based on the smart contract functions, and the number of EVs.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract2')"></button>
+                  </div>
+                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S2352467724000018" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 6 - Feb 2024 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Feb 2024</span>
+                  <h4>Blockchain-based Decentralized Application for Electric Vehicles</h4>
+                  <p>Scheduling at Charging Station</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract3')">Read Abstract</button>
+                  <div id="abstract3" class="abstract-card">
+                      <p>The penetration of electric vehicles (EVs) in the energy market has become a immersive paradigm for facilitating greener environment by mitigating the disadvantages of the fossil-fuel vehicles. Nevertheless, it becomes critical for charging station (CS) to handle huge number of EVs further leading to the uncoordinated and inefficient charging. Moreover, none of the authors have considered the possible EV charging scenarios for allocation at the CS. Thus, we have designed an Ethereum blockchain-based decentralized application for EV charging at the CS along with the energy trading between prosumer and consumer EVs. Further, we have formulated charging scenarios based on the energy demand and type of EV (emergency and high authority). We have deployed the smart contract in Remix Integrated Development Environment (IDE) and further built a decentralized application using Web3 to made charging allocation accessible to the EVs. Finally, the simulation results of the proposed smart contract for the application is evaluated in terms of gas consumption and cost analysis with the help of deployed smart contract in the Remix IDE.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract3')"></button>
+                  </div>
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3603287.3651182" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 9 - May 2023 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">May 2023</span>
+                  <h4>Blockchain-based energy trading scheme for EVs coordination</h4>
+                  <p>A Smart Contract Approach</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract4')">Read Abstract</button>
+                  <div id="abstract4" class="abstract-card">
+                      <p>The extensive deployment of electric vehicles (EVs) globally has become an alternative to fossil-fuel or gasoline vehicles to tackle harmful greenhouse gas emissions. But, huge EV charging demand can bring challenges to the charging infrastructure by destabilizing the grid stability and affecting efficient EV charging. Thus, the aforementioned challenges can be addressed by facilitating the energy trading (ET) between EVs which can act as prosumers or consumers. Thus, we have proposed a blockchain-based secure ET scheme for EVs coordination using Interplanetary File System (IPFS) protocol to mitigate the data storage cost issues of the blockchain. Opportunistically, we have considered various ET scenarios to coordinate the communication between prosumer and consumer based on the waiting time and priority levels. Moreover, the data communication between EVs is considered via a 5G communication network for highly reliable and efficient ET. Finally, the proposed scheme is evaluated by executing the smart contract using Remix Integrated Development Environment (IDE) with various performance metrics such as gas consumption (SF5 acquires maximum value of 186571 gas) and cost (execution (SF5 acquires maximum value of 120371 gas) and transaction cost (SF4 acquires maximum value of 124865 gas) ) analysis. Additionally, security analysis of the proposed scheme is tested using Echidna tool which shows the working of the smart contract without any vulnerability and bug.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract4')"></button>
+                  </div>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10290823" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 3 - Jun 2023 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Jun 2023</span>
+                  <h4>Blockchain-based secure voting mechanism</h4>
+                  <p>Underlying 5G network: A smart contract approach</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract5')">Read Abstract</button>
+                  <div id="abstract5" class="abstract-card">
+                      <p>Purpose: With the advancement and modernization of Information and Communication Technology, electronic voting (e-voting) has been adopted across the globe for conducting a secure and efficient voting procedure. However, e-voting can be easily exposed to various malicious attacks such as denial-of-service, malware, insider, compromised credentials, etc., that can risk the voter’s privacy and affect the final voting results. Thus, we have considered the decentralized and immutable blockchain technology for completing the voting procedure securely. Nevertheless, many researchers have considered blockchain to mitigate the security and privacy issues of the voting procedure, but they ignored the aspect of cost-efficiency, latency, and response time while voting. Method: The idea of the proposed mechanism is to deploy and implement the smart contract in the Remix Integrated Development Environment (IDE) involving number of voters electing the candidate with various functionalities. Moreover, we considered the amalgamation of blockchain and IPFS to overcome the data storage cost issues of blockchain for voters and candidates communicating through 5G wireless network. The 5G network, with its low latency, high availability, and high reliability facilitates high data rate and reliable communication between voters and candidates to complete the voting procedure efficiently. Results: The deployed smart contract of the proposed voting mechanism highlight various functionalities required for electing the candidate by the voters. Moreover, the deployed smart contract is evaluated and analyzed considering various performance metrics such as gas consumption analysis for smart contract functions and number of voters, cost analysis for smart contract functions, bit error rate, and storage cost comparison with the traditional scheme. We have also verified the security of the proposed voting mechanism using Echidna security tool which shows the election of candidate without any threat. Conclusion: Finally, we have presented a blockchain-based voting mechanism in which IPFS and 5G is employed to avail the cost-efficient, reliable, and secure candidate election by the voters. Moreover, the voters and candidates can communicate with lower response time and high reliability using 5G network so that smart contract consisting of all the functionalities related to the candidate election can be executed efficiently in the Remix IDE.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract5')"></button>
+                  </div>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/10188663" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 5 - Nov 2022 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Nov 2022</span>
+                  <h4>Untangling explainable AI</h4>
+                  <p>Taxonomy, tools, and open challenges</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract6')">Read Abstract</button>
+                  <div id="abstract6" class="abstract-card">
+                      <p>Recently, a paradigm shift is observed toward Industry 5.0, where tasks (processes) are automated at massive scales. This shift has initiated modern developments in artificial intelligence (AI) to support a plethora of applications like manufacturing, health care, vehicular net- works, and others. However, owing to the black-box nature of AI models, the research has shifted toward the proposal of novel techniques that aim toward the explainability and validity of these AI models. Thus, explainable AI (XAI) has become a norm in modern applicative domains, and the study of its frameworks and tools has become the buzzword among researchers. Thus, the paper intends to present the key concepts of XAI and aims at improving the model transparency. The survey systematically untangles the key concepts of XAI and presents a solution taxonomy in different applications. Modern XAI techniques are classified as self-explanatory, visual-based-model-agnostic, global surrogate, and local surrogate-model-agnostic. We also cover the tools and frameworks of XAI and discuss the open issues and challenges in practical realization. Thus, the survey intends to arm AI practitioners to design optimal solutions to realize XAI in practical use-case setups.
+
+                      </p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract6')"></button>
+                  </div>
+                  <a href="https://link.springer.com/chapter/10.1007/978-981-99-1479-1_63" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 4 - Sep 2022 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Sep 2022</span>
+                  <h4>NadERA: A novel framework</h4>
+                  <p>Achieving reduced distress response time by leveraging emotion recognition from audio</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract7')">Read Abstract</button>
+                  <div id="abstract7" class="abstract-card">
+                      <p>This paper proposes a novel framework for automatically directing the user to an appropriate helpline number in an emergency based on his/her emotional state. For emotion detection, we integrate four benchmark datasets (SAVEE, RAVDESS, TESS, and Crema-D). We further examine the impact of various features on this comprehensive dataset and see the possibility of generalization with the help of diversified data. The highest accuracy achieved by the Convolutional Neural Network (CNN) model is 93.14% using the proposed approach. The results indicate that our emotion recognition model highly depends on the choice of audio features. Finally, we use this prediction to build our single-emergency number helpline architecture which predicts the caller’s emotions and directly connects them to the desired person for seeking mental help through counselors, protection with the help of police, or a general call center for any other help. This framework reduces the response time and provides a single point of connection.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract7')"></button>
+                  </div>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-35501-1_38" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 2 - Apr 2022 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Apr 2022</span>
+                  <h4>Blockchain and federated learning-based security solutions</h4>
+                  <p>For telesurgery system: a comprehensive review</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract8')">Read Abstract</button>
+                  <div id="abstract8" class="abstract-card">
+                      <p>The advent of telemedicine with its remote surgical procedures has effectively transformed the working of healthcare professionals. The evolution of telemedicine facilitates the remote monitoring of patients that lead to the advent of telesurgery systems, i.e. one of the most critical applications in telemedicine systems. Apart from gaining popularity, the telesurgery system may encounter security and trust issues of patients? data while communicating with the surgeon for their remote treatment. Motivated by this, we have presented a comprehensive survey on secure telesurgery systems comprising healthcare, surgical robots, traditional telesurgery systems, and the role of artificial intelligence to deal with the numerous security attacks associated with the patients' health data. Furthermore, we propose a blockchain and federated learning-based secure telesurgery system to secure the communication between patient and surgeon. The results of the proposed system are better than those of the traditional system in terms of improved latency, low data storage cost, and enhanced data offloading. Finally, we explore the research challenges and issues associated with the telesurgery system.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract8')"></button>
+                  </div>
+                  <a href="https://journals.tubitak.gov.tr/elektrik/vol30/iss7/1/" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+
+          <!-- Paper 1 - Jan 2022 -->
+          <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                  <span class="timeline-date">Jan 2022</span>
+                  <h4>A taxonomy on smart healthcare technologies</h4>
+                  <p>Security framework, case study, and future directions</p>
+                  <button class="btn btn-outline-primary" onclick="showAbstract('abstract9')">Read Abstract</button>
+                  <div id="abstract9" class="abstract-card">
+                      <p>There is a massive transformation in the traditional healthcare system from the specialist-centric approach to the patient-centric approach by adopting modern and intelligent healthcare solutions to build a smart healthcare system. It permits patients to directly share their medical data with the specialist for remote diagnosis without any human intervention. Furthermore, the remote monitoring of patients utilizing wearable sensors, Internet of Things (IoT) technologies, and artificial intelligence (AI) has made the treatment readily accessible and affordable. However, the advancement also brings several security and privacy concerns that poorly maneuvered the effective performance of the smart healthcare system. An attacker can exploit the IoT infrastructure, perform an adversarial attack on AI models, and proliferate resource starvation attacks in smart healthcare system. To overcome the aforementioned issues, in this survey, we extensively reviewed and created a comprehensive taxonomy of various smart healthcare technologies such as wearable devices, digital healthcare, and body area networks (BANs), along with their security aspects and solutions for the smart healthcare system. Moreover, we propose an AI-based architecture with the 6G network interface to secure the data exchange between patients and medical practitioners. We have examined our proposed architecture with the case study based on the COVID-19 pandemic by adopting unmanned aerial vehicles (UAVs) for data exchange. The performance of the proposed architecture is evaluated using various machine learning (ML) classification algorithms such as random forest (RF), naive Bayes (NB), logistic regression (LR), linear discriminant analysis (LDA), and perceptron. The RF classification algorithm outperforms the conventional algorithms in terms of accuracy, i.e., 98%. Finally, we present open issues and research challenges associated with smart healthcare technologies.</p>
+                      <button class="close-abstract" onclick="hideAbstract('abstract9')"></button>
+                  </div>
+                  <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2022/1863838" target="_blank" class="btn btn-outline-primary">Read Paper</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container text-justify" style="max-width: 900px; margin: 0 auto;">
+      <h2 class="text-center display-4 mb-3">Skills</h2>
+      <p class="text-center lead mb-5">I have acquired technical and professional skills in a variety of areas while working as a Software Engineer and Computer Science graduate student.</p>
+
+      <!-- Technical Skills -->
+      <h3 class="text-center mt-5 mb-3 text-primary"><strong>Technical Skills</strong></h3> 
+      <div class="skills-list">
+          <div class="skills-category">
+              <p><strong>Languages:</strong> Java, C, JavaScript, Python, HTML, CSS, TypeScript, Solidity, SQL</p>
+          </div>
+          <div class="skills-category">
+              <p><strong>Technologies:</strong> Angular, Django, Node.js, React.js, Spring Boot, Vue.js</p>
+          </div>
+          <div class="skills-category">
+              <p><strong>Databases:</strong> MySQL, MongoDB, Oracle, SQL Server, Cassandra</p>
+          </div>
+          <div class="skills-category">
+              <p><strong>Tools:</strong> Git, Spark, Hadoop, AWS, Power BI, Tableau, Confluence, Apache Ivy, Maven</p>
+          </div>
+          <div class="skills-category">
+              <p><strong>Libraries:</strong> NumPy, Pandas, SciPy, PyTorch, TensorFlow, Keras</p>
+          </div>
+          <div class="skills-category">
+              <p><strong>Others:</strong> HTML, CSS, SCSS, Kubernetes, Bash, Linux, Jenkins, REST, Netlify</p>
+          </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <h3 class="text-center mt-5 mb-3 text-primary"><strong>Professional Skills</strong></h3>
+      <p class="text-justify">Communication, Problem Solving, Critical Thinking, Leadership, Emotional Intelligence, Team Management, Punctuality, Time Management, Adaptability, Attention to Detail, Research, Creativity, Conflict Resolution</p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+      <h2 class="text-center display-4 mb-3">Projects</h2>
+
+      <!-- Project 1: Kanbas -->
+      <div class="row align-items-center mb-5">
+          <div class="col-md-2 text-center">
+              <img src="k.jpg" alt="Kanbas Icon" class="project-icon">
+          </div>
+          <div class="col-md-10">
+              <h3>Kanbas</h3>
+              <ul>
+                  <li>Replicated popular tool Canvas to learn best practices & development techniques in full-stack software development.</li>
+                  <li>Utilized React.js, Node.js, MongoDB, HTML, CSS, and Bootstrap for implementation, with below 1-second response times.</li>
+              </ul>
+              <a href="https://amazing-bunny-e6043a.netlify.app/#/Kanbas/Dashboard" target="_blank" class="btn btn-outline-primary">Deployed Application</a>
+              <a href="https://github.com/97sachi/kanbas-react-web-app" target="_blank" class="btn btn-outline-primary">Github Repository</a>
+          </div>
+      </div>
+
+      <!-- Project 3: Boston Homes Connect -->
+      <div class="row align-items-center mb-5">
+          <div class="col-md-2 text-center">
+              <img src="b.png" alt="Boston Homes Connect Icon" class="project-icon">
+          </div>
+          <div class="col-md-10">
+              <h3>Boston Homes Connect</h3>
+              <p><strong>Feb 2024 - May 2024</strong></p>
+              <ul>
+                  <li>Developed Boston Homes Connect, a web application that expanded broker-homeowner connections by 40%, deploying React, Node.js, Express.js, and MySQL.</li>
+                  <li>Designed a user-friendly interface with React, HTML, CSS, and JavaScript, achieving a 30% improvement in user immersion through Redux and Axios.</li>
+                  <li>Teamed up with developers and stakeholders to launch a comprehensive admin dashboard, enabling brokers and homeowners to efficiently manage over 200 property listings and customer requests.</li>
+              </ul>
+              <a href="https://github.com/97sachi/BostonHomes_Connect" target="_blank" class="btn btn-outline-primary">Github Repository</a>
+          </div>
+      </div>
+
+      <!-- Project 4: Blockchain & Smart Contract-Based Consensus Mechanism -->
+      <div class="row align-items-center mb-5">
+          <div class="col-md-2 text-center">
+              <img src="ev.png" alt="Blockchain Project Icon" class="project-icon">
+          </div>
+          <div class="col-md-10">
+              <h3>Blockchain & Smart Contract-Based Consensus Mechanism for EV Charging Allocation & Trading</h3>
+              <ul>
+                  <li>Facilitated a blockchain-based DApp to upgrade EV charging allocation, overhauling efficiency by 30% through consideration of EV types, waiting time, charging time, and energy demands.</li>
+                  <li>Partnered with cross-functional teams to develop a trading mechanism between high-demand and low-demand EVs, optimizing charging allocation and reducing overall wait times by 25%.</li>
+                  <li>Utilized HTML, CSS, and JavaScript for front-end development, integrating Solidity smart contracts via MetaMask, revamped user inclusion by 40% through consistent interactions with Ether.js and Web3.</li>
+              </ul>
+              <a href="https://github.com/repository-link" target="_blank" class="btn btn-outline-primary">Github Repository</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<a href="#" class="back-to-top">
+  <img src="1.png" alt="Back to Top" class="back-to-top-icon"> 
+  <span>Back to Top</span>
+</a>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2024 Sachi Dilipkumar Chaudhary | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+
+
+
+
+
+
+</script>
+
+<script>
+  function showAbstract(abstractId) {
+      // Fetch the abstract content based on the abstractId
+      let abstractContent = document.getElementById(abstractId).innerHTML;
+
+      // Insert the abstract content into the modal body
+      document.getElementById("modalAbstractContent").innerHTML = abstractContent;
+
+      // Show the modal
+      let abstractModal = new bootstrap.Modal(document.getElementById("abstractModal"));
+      abstractModal.show();
+  }
+  // Back to Top Button
+const backToTopButton = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
+    }
+});
+
+backToTopButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+</script>
+
+
+
+<!-- Abstract Content (Hidden in the page and used to populate the modal) -->
+<div id="abstractContent1" style="display: none;">
+  <p>This paper presents a decentralized application for telesurgery in the Metaverse environment, leveraging blockchain technology for secure and efficient procedures.</p>
+</div>
+
+<div id="abstractContent2" style="display: none;">
+  <p>This work proposes a smart contract-based framework integrated with IPFS to ensure secure synchronization of electric vehicles at charging stations, optimizing energy consumption and security.</p>
+</div>
+
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const phrases = [
+    "I code.",
+    "I am a full-stack developer.",
+    "I innovate.",
+    "An ecophile",
+    "I solve complex problems.",
+    "An altruist"
+  ];
+
+  let phraseIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  const typingSpeed = 100; // Speed of typing in milliseconds
+  const deletingSpeed = 50; // Speed of deleting characters in milliseconds
+  const pauseDuration = 1000; // Time to pause before deleting the text
+  const dynamicText = document.getElementById('dynamic-text');
+
+  function typePhrase() {
+    const currentPhrase = phrases[phraseIndex];
+    
+    if (!isDeleting) {
+      // Typing the characters
+      dynamicText.textContent = currentPhrase.substring(0, charIndex + 1);
+      charIndex++;
+
+      if (charIndex === currentPhrase.length) {
+        // When the full phrase is typed, pause and then start deleting
+        setTimeout(() => isDeleting = true, pauseDuration);
+      }
+    } else {
+      // Deleting the characters
+      dynamicText.textContent = currentPhrase.substring(0, charIndex - 1);
+      charIndex--;
+
+      if (charIndex === 0) {
+        // When the phrase is fully deleted, move to the next phrase
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        isDeleting = false;
+      }
+    }
+
+    // Set the typing and deleting speed
+    const speed = isDeleting ? deletingSpeed : typingSpeed;
+    setTimeout(typePhrase, speed);
+  }
+
+  // Start the typing effect when the document is loaded
+  document.addEventListener('DOMContentLoaded', typePhrase);
+</script>
+
+
+</body>
+</html>
